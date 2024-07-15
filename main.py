@@ -63,8 +63,8 @@ models = {
     "Gradient Boosting": GradientBoostingClassifier(),
     "MultinomialNB": MultinomialNB(),
     "Random forest": RandomForestClassifier(),
-    "Logistic regression": LogisticRegression(max_iter = 1000),
-    "SVC": SVC(kernel = 'linear')
+    "SVC": SVC(kernel = 'linear'),
+    "Logistic regression": LogisticRegression(max_iter = 1000)
 }
 
 for name, model in models.items():
