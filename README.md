@@ -14,24 +14,22 @@ The goal of this project is to classify IMDb movie reviews into positive or nega
 ## Usage
 
 1. **Data Preparation:**
-   - Ensure IMDb movie reviews dataset is organized in the expected directory structure.
    - Update paths in the script to point to your local dataset if necessary.
 
 2. **Dependencies:**
-   - Make sure you have installed the required Python libraries:
-     - `numpy`, `pandas`, `scikit-learn`
-     - Specifically, `os`, `sklearn.model_selection`, `sklearn.feature_extraction.text`, `sklearn.ensemble`, `sklearn.linear_model`, `sklearn.naive_bayes`, `sklearn.svm`, `sklearn.metrics`
+   - Python 3.6 or higher installed on your system.
+   - Ensure `pip` is installed to manage Python packages.
 
 3. **Running the Script:**
-   - Run the script to train and evaluate the models.
-   - Adjust parameters or add new classifiers as needed for experimentation.
+   1. Clone the repository
+   2. Install the required libraries:
+      - pip install -r requirements.txt
+   3.Run python main.py
 
 ## Files
-
 - `main.py`: Python script containing the main functionality for sentiment analysis.
 - `README.md`: This file, providing an overview of the project, usage instructions, and file descriptions.
 - `aclImdb` : This folder contains datasets
 
 ## Credits
-
 - Dataset sourced from IMDb movie reviews.
