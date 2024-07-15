@@ -24,7 +24,7 @@ The goal of this project is to classify IMDb movie reviews into positive or nega
    - Clone the repository
    - Install the required libraries:
       - `pip install -r requirements.txt`
-   - Run python main.py
+   - Run `python main.py`
 
 ## Files
 - `main.py`: Python script containing the main functionality for sentiment analysis.
