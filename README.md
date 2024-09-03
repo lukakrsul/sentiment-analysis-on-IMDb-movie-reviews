@@ -23,7 +23,7 @@ The goal of this project is to classify IMDb movie reviews into positive or nega
 3. **Running the Script:**
    - Clone the repository:
      ```bash
-     git clone https://github.com/username/repository.git
+     git clone https://github.com/lukakrsul/sentiment-analysis-on-IMDb-movie-reviews.git
      ```
    - Install the required libraries:
      ```bash
